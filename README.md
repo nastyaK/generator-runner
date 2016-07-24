@@ -15,7 +15,7 @@ generatorRunner = require('generator-runner')
 ```
 function querySomethingPromise(id) {
     return generatorRunner.run(function *() {
-        var something = yield activeREcord.findSomethingById(id);
+        var something = yield activeRecord.findSomethingById(id);
         if (!something)
             throw "Something not found";
         yield ChechSomethingInvariantsPromise(something);  
