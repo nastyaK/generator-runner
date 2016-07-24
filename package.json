@@ -1,8 +1,8 @@
 {
   "name": "run-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run promises promises in a synchronous manner unitizing generators",
-  "main": "generator-runner.js",
+  "main": "lib/generator-runner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
