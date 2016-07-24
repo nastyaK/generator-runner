@@ -52,7 +52,7 @@ function querySomethingPromise(id) {
     });
 }
 ```
-# yield keyword means something like "when the promise will be resolved get back to this piece of code and continue execution"
-# you can throw an exception and the exception will break execution flow immediately. If an exception have happened then result promise will be rejected.
-# all errors which could happened during promise execution will be handled for you, you don't need to check  if (err) reject(err); every time
-# your unit tests would become much easier to write, support and read
+- yield keyword means something like "when the promise will be resolved get back to this piece of code and continue execution"
+- you can throw an exception and the exception will break execution flow immediately. If an exception have happened then result promise will be rejected.
+- all errors which could happened during promise execution will be handled for you, you don't need to check  if (err) reject(err); every time
+- your unit tests would become much easier to write, support and read
