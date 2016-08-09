@@ -12,7 +12,7 @@ npm install run-generator
 
 #API
 ```
-generatorRunner = require('generator-runner')
+generatorRunner = require('run-generator')
 ```
 
 #Example
